@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/berto/flashcards/config"
+	"github.com/richardshi/flashcards/config"
 	"github.com/sajari/fuzzy"
 )
 

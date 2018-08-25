@@ -6,7 +6,7 @@ import (
 	"github.com/gizak/termui"
 	termbox "github.com/nsf/termbox-go"
 
-	"github.com/berto/flashcards/context"
+	"github.com/richardshi/flashcards/context"
 )
 
 // actionMap binds specific action names to the function counterparts

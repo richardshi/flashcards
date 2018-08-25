@@ -3,8 +3,8 @@ package views
 import (
 	"github.com/gizak/termui"
 
-	"github.com/berto/flashcards/components"
-	"github.com/berto/flashcards/config"
+	"github.com/richardshi/flashcards/components"
+	"github.com/richardshi/flashcards/config"
 )
 
 const optionsHeight = 3

@@ -1,8 +1,8 @@
 package components
 
 import (
-	"github.com/berto/flashcards/config"
 	"github.com/gizak/termui"
+	"github.com/richardshi/flashcards/config"
 )
 
 // WordList is the definition of WordList component
@@ -113,8 +113,8 @@ func (w *WordList) ScrollDown() (change bool) {
 
 // ScrollTop will move the cursor to the top of the list
 func (w *WordList) ScrollTop() {
-		w.SelectedWord = w.List.InnerBounds().Min.Y
-		w.Offset = 0
+	w.SelectedWord = w.List.InnerBounds().Min.Y
+	w.Offset = 0
 }
 
 // ScrollBottom will move the cursor to the bottom of the list
@@ -126,7 +126,7 @@ func (w *WordList) ScrollBottom() {
 
 	if offset < 0 {
 		w.Offset = 0
-	} 
+	}
 }
 
 // GetHeight implements interface termui.GridBufferer

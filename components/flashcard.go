@@ -1,8 +1,8 @@
 package components
 
 import (
-	"github.com/berto/flashcards/config"
 	"github.com/gizak/termui"
+	"github.com/richardshi/flashcards/config"
 )
 
 // Flashcard is the definition of Flashcard component

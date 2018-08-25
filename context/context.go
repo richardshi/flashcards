@@ -5,8 +5,8 @@ import (
 
 	"github.com/gizak/termui"
 
-	"github.com/berto/flashcards/config"
-	"github.com/berto/flashcards/views"
+	"github.com/richardshi/flashcards/config"
+	"github.com/richardshi/flashcards/views"
 )
 
 type AppContext struct {

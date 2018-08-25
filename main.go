@@ -7,10 +7,10 @@ import (
 	"os/user"
 	"path"
 
-	"github.com/berto/flashcards/cmd"
-	"github.com/berto/flashcards/context"
-	"github.com/berto/flashcards/handlers"
 	"github.com/gizak/termui"
+	"github.com/richardshi/flashcards/cmd"
+	"github.com/richardshi/flashcards/context"
+	"github.com/richardshi/flashcards/handlers"
 )
 
 const (
@@ -86,8 +86,8 @@ func main() {
 	// setup body
 	termui.Body.AddRows(
 		termui.NewRow(
-			termui.NewCol(2, 0, ctx.View.WordList),
-			termui.NewCol(10, 0, ctx.View.Flashcard),
+			termui.NewCol(4, 0, ctx.View.WordList),
+			termui.NewCol(8, 0, ctx.View.Flashcard),
 		),
 		termui.NewRow(
 			termui.NewCol(12, 0, ctx.View.Options),
