@@ -35,7 +35,7 @@ func CreateFlashcardView(config *config.Config) *View {
 
 // UpdateFlashcard sets the text and definition to the currently selected flashcard
 func (v *View) UpdateFlashcard() {
-	v.Flashcard.Change(&v.flashcards[v.WordList.SelectedWord-1])
+	v.Flashcard.Change(&v.flashcards[v.WordList.Offset+v.WordList.SelectedWord-1])
 }
 
 // Refresh re-renders the components
